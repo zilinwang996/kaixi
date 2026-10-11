@@ -9,7 +9,4 @@
 ## 作者的话
 由于处于学习初期,因此在符合规范前提下简化仓库结构，文件分类按照以下标准
 
-project1  —— docs
-        —— rtl
-        —— tb
-        ——sim
+```text project1/ ├── rtl/ # 可综合源代码 ├── tb/ # Testbench 测试平台 ├── constraints/ # FPGA 引脚与时序约束 └── docs/ # 文档与仿真截图 ```
